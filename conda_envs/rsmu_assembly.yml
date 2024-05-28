@@ -14,6 +14,7 @@ dependencies:
   - brotli=1.1.0=hd590300_1
   - brotli-bin=1.1.0=hd590300_1
   - brotli-python=1.1.0=py38h17151c0_1
+  - bwa=0.7.18=he4a0461_0
   - bzip2=1.0.8=hd590300_5
   - c-ares=1.28.1=hd590300_0
   - ca-certificates=2024.2.2=hbcca054_0
@@ -49,6 +50,7 @@ dependencies:
   - gmp=6.3.0=h59595ed_1
   - graphite2=1.3.13=h59595ed_1003
   - harfbuzz=8.5.0=hfac3d4d_0
+  - htslib=1.20=h81da01d_0
   - icu=73.2=h59595ed_0
   - idna=3.7=pyhd8ed1ab_0
   - importlib-resources=6.4.0=pyhd8ed1ab_0
@@ -117,7 +119,7 @@ dependencies:
   - openjdk=20.0.2=hfea2f88_1
   - openjpeg=2.5.2=h488ebb8_0
   - openmp=8.0.1=0
-  - openssl=3.3.0=hd590300_0
+  - openssl=3.3.0=h4ab18f5_3
   - packaging=24.0=pyhd8ed1ab_0
   - pandas=2.0.3=py38h01efb38_1
   - pcre=8.45=h9c3ff4c_0
@@ -164,6 +166,7 @@ dependencies:
   - ragtag=2.1.0=pyhb7b1952_0
   - readline=8.2=h8228510_1
   - requests=2.31.0=pyhd8ed1ab_0
+  - samtools=1.20=h50ea8bc_0
   - scipy=1.10.1=py38h59b608b_3
   - setuptools=69.5.1=pyhd8ed1ab_0
   - six=1.16.0=pyh6c4a22f_0
