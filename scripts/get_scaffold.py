@@ -38,6 +38,6 @@ with target_scaffold.open('w') as f1:
    for i, record in enumerate(SeqIO.parse(path_to_scaffolds, 'fasta')):
      if i == 0:
        record.id = 'NC_003210.1'
-       record.description = f'SRR1982238_assembly length:{len(record.seq)}'
+       record.description = f'SRR1982238_assembly length:{len(record.seq)} N:{record.seq.count("N")}'
        SeqIO.write(record, f1, "fasta")
      else: SeqIO.write(record, f2, "fasta")
